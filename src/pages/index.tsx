@@ -1,12 +1,12 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 type Props = {
   title: string;
 };
 
-const foo = "bla";
+const foo = 'bla';
 
-export default function Home({ title = "react avancado" }: Props) {
+export default function Home({ title = 'react avancado' }: Props) {
   return (
     <div className="container">
       <Head>
