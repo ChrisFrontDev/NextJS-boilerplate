@@ -1,6 +1,17 @@
+import * as S from './styles';
+
 const Main = () => (
-  <main>
-    <h1>React Avançado</h1>
-  </main>
+  <S.Wrapper>
+    <S.Logo
+      src="/img/logo.svg"
+      alt="Imagem de um átomo e React Avançado escrito ao lado."
+    />
+    <S.Title>React Avançado</S.Title>
+    <S.Description>TypeScript.ReactJs,NextJs e Styled Components</S.Description>
+    <S.Illustrator
+      src="/img/hero-illustration.svg"
+      alt="Um desenvovedor em frente ao computador escrevendo o código"
+    />
+  </S.Wrapper>
 );
 export default Main;
