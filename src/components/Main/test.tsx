@@ -1,4 +1,6 @@
 import { render, screen } from '@testing-library/react';
+import 'jest-styled-components';
+
 import Main from './';
 
 describe('test <Main /> component', () => {
