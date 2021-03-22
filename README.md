@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project boilerplate the best pratices.
+
+## What is inside?
+
+This project uses lot of stuff as:
+- TypeScript
+- NextJS
+- Styled Components
+- Jest
+- React Testing Library
+- Storybook
+- Eslint
+- Prettier
+- Husky
 
 ## Getting Started
 
